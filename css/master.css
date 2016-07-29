@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-box {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .nametag {
+    padding-right: 30px;
+  }
+}
+
+.logo-box {
+  padding-top: 40px;
+  height: 120px;
+}
+
+.header-logo {
+  width: 300px;
+  height: 53px;
+}
+
+.nametag {
+  padding-top: 20px;
+  height: 120px;
+  font-family: 'Questrial', sans-serif;
+}
+
+h1 {
+  text-align: right;
+  font-size: 44px;
+  font-weight: 300;
+}
+
+.personal-title {
+  text-align: right;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  border-top: 3px solid #7d97ad;
+}
+
+.main-figure {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.main-figcaption {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h2 {
+  padding-left: 15px;
+  color: #7d97ad;
+}
+
+.project {
+  text-align: center;
+  word-wrap: break-word;
+  padding-top: 15px;
+}
+
+h3 {
+  color: #2d3c49;
+}
+
+.project-figure {
+  height: 200px;
+}
+
+.project-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#snubcube-img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#p3-img {
+  padding-top: 20px;
+}
