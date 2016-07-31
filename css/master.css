@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -34,7 +35,7 @@ body {
 .nametag {
   padding-top: 20px;
   height: 120px;
-  font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
 }
 
 h1 {
@@ -46,7 +47,7 @@ h1 {
 .personal-title {
   text-align: right;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 hr {
@@ -55,9 +56,7 @@ hr {
 
 .main-figure {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 
 .main-figcaption {
@@ -85,13 +84,11 @@ h3 {
 }
 
 .project-img {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 #snubcube-img {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
 }
 
 #p3-img {
